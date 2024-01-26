@@ -3,5 +3,54 @@
   <session-config>
     <session-timeout>30</session-timeout>
   </session-config>
- 
+  <servlet>
+    <description></description>
+    <display-name>AjouterFilm</display-name>
+    <servlet-name>AjouterFilm</servlet-name>
+    <servlet-class>fr.doranco.gestionFilm.md.servlet.AjouterFilm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AjouterFilm</servlet-name>
+    <url-pattern>/AjouterFilm</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SupprimerFilm</display-name>
+    <servlet-name>SupprimerFilm</servlet-name>
+    <servlet-class>fr.doranco.gestionFilm.md.servlet.SupprimerFilm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SupprimerFilm</servlet-name>
+    <url-pattern>/SupprimerFilm</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AjouterUtilisateur</display-name>
+    <servlet-name>AjouterUtilisateur</servlet-name>
+    <servlet-class>fr.doranco.gestionFilm.md.servlet.AjouterUtilisateur</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AjouterUtilisateur</servlet-name>
+    <url-pattern>/AjouterUtilisateur</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>FilmParId</display-name>
+    <servlet-name>FilmParId</servlet-name>
+    <servlet-class>fr.doranco.gestionFilm.md.servlet.FilmParId</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FilmParId</servlet-name>
+    <url-pattern>/FilmParId</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AjouterImagePourFilm</display-name>
+    <servlet-name>AjouterImagePourFilm</servlet-name>
+    <servlet-class>fr.doranco.gestionFilm.md.servlet.AjouterImagePourFilm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AjouterImagePourFilm</servlet-name>
+    <url-pattern>/AjouterImagePourFilm</url-pattern>
+  </servlet-mapping>
 </web-app>

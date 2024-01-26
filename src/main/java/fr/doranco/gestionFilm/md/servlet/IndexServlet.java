@@ -38,6 +38,7 @@ public class IndexServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		List<Film> films = filmService.trouverTousLesFilms();
 		request.setAttribute("films", films);
+		
 		request.getRequestDispatcher("WEB-INF/Index.jsp").forward(request, response);	}
 
 	/**

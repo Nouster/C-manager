@@ -9,9 +9,6 @@ public class Requete {
 	public static final String EFFACER_IMAGE = "DELETE FROM `image` WHERE Id_Film = ?";
 
 	
-
-
-	
 	// Film
 	
 	public static final String AJOUTER_FILM = "INSERT INTO `film`(`nom`, `realisateur`, `anneeDeSortie`) VALUES (?,?,?)";
